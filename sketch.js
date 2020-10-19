@@ -81,7 +81,7 @@ function draw() {
     }
     
      //jump when the space key is pressed
-    if(keyDown("space")){
+    if(keyDown("space")&& trex.y >= 159){
       trex.velocityY = -12 ;
     }
   
